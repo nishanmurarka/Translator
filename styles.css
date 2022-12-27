@@ -1,0 +1,101 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;  
+    background-color: rgb(47, 92, 117)
+} 
+.container{
+    width:690px;
+    background: #fff;
+    border-radius: 7px;
+    padding: 30px;
+}
+.wrapper{
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.wrapper .text-input{
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.text-input .from-text{
+    border-right: 1px solid black;
+}
+.text-input textarea{
+    height: 250px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+    border: none
+    
+}
+
+.controls,li, .icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.controls{
+    list-style: none;
+    padding: 10px;
+}
+.icons{
+    width: 40%;
+}
+.controls .icons i{
+    color: rgba(0, 0, 0, 0.463);
+    font-size: 18px;
+    width: 50px;
+    cursor: pointer;
+    justify-content: center;
+}
+.controls .row.from .icons{
+    
+    border-right: 1px solid rgba(0, 0, 0, 0.463);
+}
+.controls .row.to .icons{
+    padding-left: 17px;
+    border-left: 1px solid rgba(0, 0, 0, 0.463);
+}
+
+.controls .row select{
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+    outline: none;
+    
+}
+.exchange{
+    cursor: pointer;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.463);
+}
+.container button{
+    width:100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: rgb(47, 92, 117);
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pressed{
+    color: #000;
+    font-size: 30px;
+    outline: rgb(216, 15, 15);
+    border: blue;
+    
+}
